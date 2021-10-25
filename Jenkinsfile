@@ -4,9 +4,6 @@ pipeline
 		triggers
 		{
  			pollSCM('* * * * *')
-		}
-		triggers 
-		{ 
 			cron('0 0 * * *')
 		}
 		stages 
