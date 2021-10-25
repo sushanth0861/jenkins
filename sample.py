@@ -13,11 +13,11 @@ def car_price(cost):
 class NearestExitTests(unittest.TestCase):
 
 	def test_row_1(self):
-		self.assertEqual(car_price(20000), 'maruthi', 'The nearest cost to row 1 is in the maruthi! ')
+		self.assertEqual(car_price(20000), 'maruthi', 'The nearest cost to row 1 is in the Maruthi! ')
 	def test_row_2(self):
-		self.assertEqual(car_price(50000), 'polo', 'The nearest cost to row 2 is in the polo! ')
+		self.assertEqual(car_price(50000), 'polo', 'The nearest cost to row 2 is in the Polo! ')
 	def test_row_3(self):
-		self.assertEqual(car_price(150000), 'merc', 'The nearest cost to row 3 is in the merc! ')
+		self.assertEqual(car_price(150000), 'merc', 'The nearest cost to row 3 is in the Merc! ')
 
 
 unittest.main()
